@@ -1,0 +1,37 @@
+﻿{
+  "$schema": "https://json.schemastore.org/launchsettings.json",
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:22814",
+      "sslPort": 44333
+    }
+  },
+  "profiles": {
+    "CadastroUsuario": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "applicationUrl": "https://localhost:7101;http://localhost:5101",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "DatabaseConnection": "server=ns480.hostgator.com.br;User Id=clowto23_User ;database=clowto23_Jovem_Programador; password=DiamantedoRegis.",
+        "SaltPassword1": "2af038735f23077ada8ad7754b94d6f8",
+        "SaltPassword2": "40347ee18c161f5fa607614ef0ff4c61",
+        "SaltPassword3": "cd04dc3b99e404a1e755df80caa77ba6",
+        "EmailDeDisparo": "yogurt.ofc@gmail.com",
+        "Password": "Senac2022"
+      }
+    },
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}
